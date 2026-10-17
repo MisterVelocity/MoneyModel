@@ -1,0 +1,82 @@
+
+
+
+--------------------------------------------------------------
+                          Output File
+--------------------------------------------------------------
+
+When the run has completed, all of the results are stored in 
+Results.csv in this very directory.
+
+Each row of this Results.csv file represent the values for 
+a single month. IE, values in the "To Savings Account" 
+column represent how much money was added to the savings 
+account *in that month*, and the "Savings Account" column 
+will already show that updated balance
+
+The columns in this file are as follows:
+Month:
+    - always present 
+    - the month for which the values occurred
+
+Year: 
+    - always present
+    - the year for which the values occurred
+
+Chk. Acc. Balance:
+    - always present
+    - the balance in the checking account for that month
+
+Sav. Acc. Balance:
+    - always present
+    - the balance in the savings account for that month
+
+Inv. Acc. Balance:
+    - only present if user chooses to have investment account
+    - the balance in the investment account for that month
+
+Dividends from Inv. Acc.:
+    - only present if user chooses to have investment account
+    - the dividends added to investment account that month
+
+Total # Properties:
+    - only present if user chooses to have investment properties
+    - the number of properties purchased to date
+
+# Properties Paid Off:
+    - only present if user chooses to have investment properties
+    - the number of properties whose mortage balances are 0
+
+Total Mortgage Balance:
+    - only present if user chooses to have investment properties
+    - the total owed on all purchased properties
+
+Total Property Payment:
+    - only present if user chooses to have investment properties
+    - the total monthly obligation to properties owned (mortgage,
+      insurance, etc.)
+
+Profit From Properties:
+    - only present if user chooses to have investment properties
+    - the net (after expenses) profit from all properties
+
+Expenses:
+    - always present
+    - total expenses for that month (rent, groceries, etc.)
+
+Employment Income:
+    - always present
+    - total income from all persons' jobs that month
+
+Total Monthly Net Income:
+    - always present
+    - all income summed (employment income, property profit, investment
+      account dividends)
+
+To Savings Account:
+    - always present
+    - the amount added to the savings account this month
+
+To Investment Account:
+    - only present if user chooses to have investment account
+    - the amount added to investment account this month

@@ -1,0 +1,49 @@
+{
+    "city": "Barcelona",
+    "start month add": 3,
+    "finances": {
+        "persons with job": 1,
+        "total persons": 2,
+        "salaries": {
+            "person 1": {
+                "has job": true,
+                "months before getting job": null,
+                "salary when job started": null,
+                "gross salary": 90000,
+                "is primary for property purchase": true
+            },
+            "person 2": {
+                "has job": false,
+                "months before getting job": 24,
+                "salary when job started": 45000,
+                "gross salary": 0,
+                "is primary for property purchase": false
+            }
+        },
+        "miscellaneous expense range": [200, 1000],
+        "% income to investment account": 0.70,
+        "checking account": {
+            "initial balance": 1000,
+            "maximum balance": 5000
+        },
+        "savings account": {
+            "initial balance": 5000,
+            "maximum balance": 100000
+        }
+    },
+    "properties": {
+        "active": true,
+        "property type": "vacation",
+        "months between purchase": 24,
+        "% profit to accounts": 0.8,
+        "max # properties": 5,
+        "residential desired monthly net": 500
+    },
+    "investment account": {
+        "active": true,
+        "initial balance": 5000,
+        "yearly interest rate": 0.08,
+        "capital gains tax": 0.20,
+        "minimum in account": 20000
+    }
+}
